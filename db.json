@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Nước hoa nữ"
+    },
+    {
+      "id": "2",
+      "name": "Nước hoa nam"
+    }
+  ],
+  "products": [
+    {
+      "name": "Chanel Coco Mademoiselle",
+      "detail": "Hương thơm quyến rũ và sang trọng.",
+      "price": 2500000,
+      "quantity": 10,
+      "image": "images/chanel.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Dior Sauvage",
+      "cate_id": "2",
+      "detail": "Phong cách mạnh mẽ, tự tin.",
+      "price": 3200000,
+      "quantity": 8,
+      "image": "images/dior.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Gucci Bloom",
+      "cate_id": "1",
+      "detail": "Hương hoa cỏ nữ tính, nhẹ nhàng.",
+      "price": 2800000,
+      "quantity": 15,
+      "image": "images/gucci.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Versace Eros",
+      "cate_id": "2",
+      "detail": "Hương thơm nam tính, gợi cảm.",
+      "price": 3000000,
+      "quantity": 12,
+      "image": "images/versace.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Yves Saint Laurent Libre",
+      "cate_id": "1",
+      "detail": "Sang trọng và hiện đại.",
+      "price": 3100000,
+      "quantity": 5,
+      "image": "images/ysl.jpg"
+    },
+    {
+      "id": "5b13",
+      "name": "Chanel Coco Mademoiselle",
+      "detail": "Hương thơm quyến rũ và sang trọng.",
+      "price": 100000,
+      "quantity": 3,
+      "image": "images/chanel.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "email": "a@gmail.com",
+      "phone": "0123456789",
+      "address": "Hà Nội"
+    },
+    {
+      "id": "2",
+      "name": "Tran Thi B",
+      "email": "b@gmail.com",
+      "phone": "0987654321",
+      "address": "Hồ Chí Minh"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1760928549877,
+      "user": {
+        "name": "Nguyen Van A",
+        "email": "a@gmail.com",
+        "phone": "0123456789",
+        "address": "Hà Nội"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Chanel Coco Mademoiselle",
+          "cate_id": "1",
+          "price": 2500000,
+          "quantity": 2
+        }
+      ],
+      "total": 5000000,
+      "created_date": "20/10/2025 09:49:09",
+      "status": "Đã thanh toán"
+    },
+    {
+      "id": 1760930058898,
+      "user": {
+        "name": "Tran Thi B",
+        "email": "b@gmail.com",
+        "phone": "0987654321",
+        "address": "Hồ Chí Minh"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Dior Sauvage",
+          "cate_id": "2",
+          "price": 3200000,
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Gucci Bloom",
+          "cate_id": "1",
+          "price": 2800000,
+          "quantity": 3
+        }
+      ],
+      "total": 11600000,
+      "created_date": "20/10/2025 10:14:18",
+      "status": "Đang xử lý"
+    },
+    {
+      "id": 1760944051071,
+      "user": {
+        "name": "Huynh Thuý",
+        "email": "thuykim2407@gmail.com",
+        "phone": "0826011179",
+        "address": "64A/3 khu phố Tam Hoà"
+      },
+      "items": [
+        {
+          "name": "Chanel Coco Mademoiselle",
+          "detail": "Hương thơm quyến rũ và sang trọng.",
+          "price": 2500000,
+          "quantity": 2,
+          "image": "images/chanel.jpg",
+          "id": "1"
+        }
+      ],
+      "total": 5000000,
+      "created_date": "14:07:31 20/10/2025",
+      "status": "Đã thanh toán"
+    }
+  ],
+  "order_details": []
+}
